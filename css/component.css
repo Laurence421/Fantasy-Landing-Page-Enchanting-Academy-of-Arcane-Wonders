@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'greek';
+}
+nav{
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+}
+nav ul{
+    height: 44px;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav ul li:nth-child(6){
+    display: flex;
+    width: 160px;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: #A9895D;
+}
+nav a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0 0px 0 20px;
+    font-size: 12px;
+}
+nav a{
+    border-left: 0.2px #00000042 solid;
+}
+nav li a:hover{
+    color: #4A3211;
+    transition: 0.3s linear;
+}
+nav li:nth-child(1) a{
+    color: #4A3211;
+    border: none;
+}
+nav li button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 152px;
+    height: 34px;
+    margin-right: -20px;
+    border-radius: 20px;
+    background-color: #5F888A;
+    color: #D6F2EC;
+    font-size: 14px;
+    cursor: pointer;
+}
+nav li button:hover{
+    background-color: #4f7274;
+    transition: 0.3s linear;
+}
+nav i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#scroll-2{
+    padding: 10ch 0 10ch 0;
+    background-color: #131D24;
+    height: 579px;
+}
+#scroll-2-info li:nth-child(2){
+    padding: 0px 100px 0 100px;
+    width: 450px;
+    border-right:1px #232D33 solid;
+    border-left:1px #232D33 solid;
+}
+#scroll-2-info li{
+    width: 237px; 
+    margin: 0px 50px 0 50px;
+}
+#scroll-2-info h1{
+    padding: 0 30px 0 30px;
+}
+#scroll-2-info p:nth-child(2) li{
+    color: #586061;
+}
+#scroll-2-info i{
+    color: #B16C4C;
+}
+#scroll-2-info li{
+    animation: text 0.3s linear both;
+    animation-timeline: view();
+    animation-range: 0% cover 50%;
+    
+}
+@keyframes text {
+    0% {
+        
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+#action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#action ul{
+    position: absolute;
+    height: 38px;
+}
+#action li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 138px;
+    margin-top: 7vh
+}
+#action li:nth-child(1){
+    border-radius: 20px 0px 0px 20px ;
+}
+#action li:nth-child(2){
+    border-radius: 0px 20px 20px 0px ;
+}
+#action li:nth-child(1):hover{
+    background-color: #EFCFA4;
+    transition: 0.3s linear;
+}
+#action li:nth-child(2):hover{
+    background-color: #507072;
+    transition: 0.3s linear;
+}
+#action img{
+    height: 588px;
+    z-index: -5;
+}
+#action h1{
+ position: absolute;
+ margin-bottom: 12vh;
+}
+#character{
+    height: 595px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 20vh;
+    flex-direction: row;
+}
+#imgs{
+     height: 395px;
+     width: 537px;
+     position: relative;
+     border-radius: 20px;
+}
+#pic-1{
+    position: relative;
+    overflow: hidden;
+}
+#pic-1{
+    border: 3px #A9895D solid;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    opacity: 1;
+    transition: 0.3s;
+}
+#pic-2 {
+    position: absolute;
+    bottom: 5vh;
+    opacity: 0;
+    transition: 0.3s;
+}
+#imgs:hover #pic-1{
+    transform: skew(5deg);
+    transition: 0.3s;
+    filter: grayscale(100);
+}
+#imgs:hover #pic-2 {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+@keyframes show {
+    to{
+        overflow: initial;
+    }
+}
+#char-txt{
+    height: 350px;
+}
+#char-txt button{
+    width: 152px;
+    height: 34px;
+    background-color: #faeaca;
+    transition: 0.3s linear;
+    color: #4A3211;
+    border-radius: 20px;
+}
+#char-txt button:hover{
+    cursor: pointer;
+    background-color: #EFCFA4;
+    transition: 0.3s linear;
+}
+footer{
+    height: 320px;
+    padding: 7vh;
+}
+#main-footer{
+    width: 567px;
+    height: 175px;
+    gap: 10vh;
+}
+#footer-2 {
+    padding: 2vh;
+}
+#footer-2 a:nth-child(1){
+    margin-right: 15px;
+}
