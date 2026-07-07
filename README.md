@@ -12,3 +12,8 @@
 ## 🚧 Roadmap & Future Improvements
 - [ ] Implement responsive utility prefixes (`sm:`, `md:`, `lg:`) to make all components mobile-friendly.
 - [ ] Refactor repetitive utility classes into reusable components.
+
+## 🎯 Credits & Inspiration
+*Layout design credit: https://www.figma.com/proto/lbbdeDXHkYCZ4TJbHFgtKd/Responsive-Fantasy-Landing-Page--Enchanting-Academy-of-Arcane-Wonders--Community-?node-id=2-74
+*
+*   *Note: This project is a front-end cloning practice to improve my HTML, CSS, and JavaScript skills.*
